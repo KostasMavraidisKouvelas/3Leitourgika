@@ -1,0 +1,5 @@
+run make
+./init
+./receptionist -d 10 -s 31(shmid)
+./monitor (shmid) refreshtime
+./visitor -d <resttime> -s <shm_id>
